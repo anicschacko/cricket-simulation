@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e9460cdbb934208a08819509ad1792, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  toWin: 60
+  totalOvers: 5
+  totalBallsPerOver: 6
+  totalBatsmen: 1
+  ballTypes:
+  - id: 1011
+    ballType: SPIN
+  - id: 1012
+    ballType: FAST
+  dividePitchInto: {x: 3, y: 2}
+  runsData:
+  - runs: 0
+    weightage: 0.9
+  - runs: 1
+    weightage: 0.85
+  - runs: 2
+    weightage: 0.6
+  - runs: 4
+    weightage: 0.35
+  - runs: 6
+    weightage: 0.2
+  outMissWeightage: {x: 0.5, y: 0.5}
